@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Data from API</title>
+    <script src="app.js" defer></script>
+    <style>
+      body {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+      .show {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+      }
+      .show img {
+        border-radius: 10px;
+        border: 2px solid yellow;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 2rem;
+      }
+      li {
+        list-style: none;
+      }
+      button {
+        background-color: black;
+        padding: 10px 20px;
+        border: 1px solid brown;
+        border-radius: 10px;
+        color: brown;
+      }
+      button:hover {
+        background-color: brown;
+        color: white;
+      }
+      input {
+        align-items: center;
+        margin-left: 20px;
+        background-color: black;
+        padding: 10px 20px;
+        border: 1px solid brown;
+        border-radius: 10px;
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><button id="american">American</button></li>
+        <li><button id="indian">Indian</button></li>
+        <li><button id="canadian">Canadian</button></li>
+        <li><button id="japanese">japanese</button></li>
+        <li><button id="british">British</button></li>
+      </ul>
+      <!-- <div>
+        <input type="text" id="search" placeholder="Search meal" />
+      </div> -->
+    </nav>
+    <h1>JS Receipe App</h1>
+    <div class="show"></div>
+  </body>
+</html>
